@@ -1,1 +1,1 @@
-##Just simple projects made for fun. Nothing fancy :)
+Just simple projects made for fun. Nothing fancy :)
