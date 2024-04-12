@@ -1,0 +1,70 @@
+/* Universal Mark */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  margin-top: 50px;
+  width: 300px;
+  padding: 35px 20px;
+  background-color: #1f1f1f;
+  border-radius: 15px;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+#location {
+  font-size: 10px;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 12px;
+}
+
+#info {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #333333;
+  width: 250px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 13px;
+  border: none;
+  font-weight: 500;
+}

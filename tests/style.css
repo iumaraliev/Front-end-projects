@@ -1,0 +1,28 @@
+body {
+  background-color: beige;
+}
+
+/* Calling classes with . */
+.block {
+  background-color: aqua;
+}
+
+/* Calling ids with # */
+#first {
+  font-size: 30px;
+  color: green;
+}
+
+#second {
+  font-size: 25px;
+  color: yellowgreen;
+}
+
+#third {
+  font-size: 28px;
+  color: brown;
+}
+
+button {
+    margin-right: 50px;
+}
