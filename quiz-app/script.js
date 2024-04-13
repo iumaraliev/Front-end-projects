@@ -100,6 +100,174 @@ const questions = [
     ],
   },
   //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "She fainted.",
+    answers: [
+      { text: "U yiqilib tushdi", correct: false },
+      { text: "U xushidan ketdi", correct: true },
+      { text: "U sovuq qotdi", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "I flipped the book to look at the back of the book",
+    answers: [
+      {
+        text: "Kitobni orqa tarafini ko'rish uchun, uni o'girdim",
+        correct: true,
+      },
+      { text: "Kitobni orqa tarafini o'girdim", correct: false },
+      { text: "Kitobning orqa betigacha varoqlab chiqdim", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "I'll never understand these instructions,' he sighed",
+    answers: [
+      {
+        text: "Men bu ko'rsatmalarni hech qachon tushunmayman dedi u",
+        correct: false,
+      },
+      { text: "Men bu ko'rsatmalarni bilaman dedi u", correct: false },
+      {
+        text: "Men bu ko'rsatmalarni tushunmayman deb u 'uff' tortdi",
+        correct: true,
+      },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "I coughed all night long",
+    answers: [
+      { text: "Kechasi bilan yo'talib chiqdim", correct: true },
+      { text: "Kechasi bilan xurrak otib chiqdim", correct: false },
+      { text: "Kechasi bilan aksi urib chiqdim", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "Do you pluck your eyebrows?",
+    answers: [
+      { text: "Qoshingni bo'yaysanmi?", correct: false },
+      { text: "Qoshingni terdirasanmi?", correct: true },
+      { text: "Qoshingni yuvasanmi?", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "Close the door carefully, don't slam it.",
+    answers: [
+      { text: "Eshikni qattiq yopib ket", correct: false },
+      { text: "Eshikni qattiq yopib ketding!", correct: false },
+      { text: "Eshikni sekinroq yop, qattiq yopma", correct: true },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "You are squeezing my hand",
+    answers: [
+      { text: "Sen meni qo'limni qisyapsan", correct: true },
+      { text: "Sen meni qo'limni ushlab olgansan", correct: false },
+      { text: "Sen meni qo'limga uryapsan", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "Ouch! Stop pinching (me)!",
+    answers: [
+      { text: "Meni chimchilashni bas qil", correct: true },
+      { text: "Meni qitiqlashni bas qil", correct: false },
+      { text: "Meni urishni bas qil", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "Omg, bomb is going to explode",
+    answers: [
+      { text: "Bomba hozir portlaydi", correct: true },
+      { text: "Bomba hozir to'xtaydi", correct: false },
+      { text: "Bomba hozir qo'yiladi", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "They hugged each other when they met at the station.",
+    answers: [
+      {
+        text: "Ular bir birini bekatda ko'rishganda quchoqladi",
+        correct: true,
+      },
+      {
+        text: "Ular bir birini bekatda ko'rganda suhbatlashishdi",
+        correct: false,
+      },
+      {
+        text: "Ular bir birini bekatda ko'rgandi so'rashishdi",
+        correct: false,
+      },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "Don't ________ stones",
+    answers: [
+      { text: "throw", correct: true },
+      { text: "thorw", correct: false },
+      { text: "therw", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "He _______ me yesterday",
+    answers: [
+      { text: "punch", correct: false },
+      { text: "punching", correct: false },
+      { text: "punched", correct: true },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "Please, _____ on the TV",
+    answers: [
+      { text: "flip", correct: false },
+      { text: "spin", correct: false },
+      { text: "turn", correct: true },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "She is _________ the flower",
+    answers: [
+      { text: "tasting", correct: false },
+      { text: "smelling", correct: true },
+      { text: "vomitting", correct: false },
+    ],
+  },
+  //   ****************************************************************
+  //   ***************************************************************
+  {
+    question: "People usually ____ hands when they meet",
+    answers: [
+      { text: "shake", correct: true },
+      { text: "grasp", correct: false },
+      { text: "pinch", correct: false },
+    ],
+  },
+  //   ****************************************************************
 ];
 
 // End of APP QUIZ DATA
