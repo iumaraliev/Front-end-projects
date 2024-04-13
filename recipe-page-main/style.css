@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfccb7;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  width: 90%;
+  max-width: 700px;
+  margin: 100px auto 0;
+  border-radius: 20px;
+}
+
+img {
+  display: block;
+  width: 620px;
+  border-radius: 18px;
+  margin-bottom: 48px;
+}
+
+.title {
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.preparation {
+  margin-top: 25px;
+  background-color: #f3e3f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #5c4832;
+}
+
+li::marker {
+  color: #770743;
+}
+
+strong {
+  margin-left: 25px;
+}
+
+.time {
+  font-size: 20px;
+  color: #770743;
+}
+
+.ingredients {
+  border-bottom: 1px solid #d8c3ae;
+  margin-bottom: 30px;
+}
+
+.ingredients h3 {
+  font-size: 30px;
+  font-family: "Young Serif", serif;
+  color: #683807;
+  font-weight: 400;
+}
+
+.ingredients li::marker {
+  color: #5c4832;
+}
+
+li p {
+  margin-left: 20px;
+}
+
+li:last-child {
+  margin-bottom: 30px;
+}
+
+.instructions h3 {
+  font-size: 30px;
+  font-family: "Young Serif", serif;
+  color: #683807;
+  font-weight: 400;
+}
+
+.instructions ol {
+  margin-left: 25px;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  align-content: flex-start;
+}
+
+.info p {
+  width: 85%;
+  text-align: left;
+}
