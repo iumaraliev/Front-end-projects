@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2833;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 250px auto 0;
+  text-align: center;
+}
+
+.joke-text {
+  font-size: 35px;
+  color: #66fcf1;
+  margin-bottom: 30px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+
+button {
+  font-weight: 600;
+  padding: 10px 50px;
+  font-size: 18px;
+  width: 240px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.answerText {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #66fcf1;
+}
+
+.answerHidden {
+  display: none;
+}
