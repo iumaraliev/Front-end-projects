@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 2rem 0;
+  margin-top: 20rem;
+  text-align: center;
+  width: 40rem;
+  background-color: blueviolet;
+  border-radius: 2rem;
+  font-size: 2rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  border: none;
+  text-decoration: none;
+}
+
+.btnAdd {
+  background-color: brown;
+  font-size: 1.5rem;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.btnAdd:hover {
+  scale: 1.1;
+}
